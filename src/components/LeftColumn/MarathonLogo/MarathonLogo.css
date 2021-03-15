@@ -1,0 +1,87 @@
+.MarathonLogo {
+    position: absolute;
+    width: 280px;
+    height: 404px;
+    left: calc(50% - 280px/2);
+    top: 40px;
+}
+
+.MarathonLogo h1 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 44px;
+    font-family: 'Stapel', sans-serif;
+    width: 350px;
+    position: absolute;
+    top: 28px;
+    letter-spacing: -0.04em;
+    color: #231F20;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.MarathonLogo .marathon_hexagon {
+    position: absolute;
+    width: 266px;
+    height: 266px;
+    left: 16px;
+    top: -8px;
+}
+
+.MarathonLogo .marathon_lines {
+    position: absolute;
+    width: 40px;
+    height: 64px;
+    left: -8px;
+    top: 194px;
+}
+
+.MarathonLogo .marathon_2020 {
+    position: absolute;
+    width: 218px;
+    height: 78px;
+    left: 74px;
+    top: 124px;
+}
+
+.MarathonLogo .p_background {
+    position: absolute;
+    width: 280px;
+    height: 112px;
+    left: 0px;
+    top: 292px;
+    background: radial-gradient(100% 100% at 0% 100%, #FFF4C2 0%, rgba(255, 231, 167, 0.2) 60%, rgba(255, 255, 255, 0) 100%);
+    border-left: 1px solid transparent;
+    border-image: linear-gradient(180deg, rgba(35, 31, 32, 0) 0%, rgba(35, 31, 32, 0.2) 100%);
+    border-image-slice: 1;
+    box-sizing: border-box;
+}
+
+.MarathonLogo p {
+    position: absolute;
+    width: 256px;
+    height: 96px;
+    left: 24px;
+    top: 0;
+
+    font-weight: 400;
+    font: 18px 'Stapel', sans-serif;
+    line-height: 24px;
+    color: #231F20;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.MarathonLogo .p_bottom_line {
+    position: absolute;
+    width: 280px;
+    height: 112px;
+    left: 0px;
+    top: 0;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(270deg, rgba(35, 31, 32, 0) 0%, rgba(35, 31, 32, 0.2) 100%);
+    border-image-slice: 1;
+    box-sizing: border-box;
+}

@@ -1,0 +1,36 @@
+.LeftColumn {
+    position: absolute;
+    width: 360px;
+    height: 910px;
+    left: 0px;
+    top: 80px;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.95);
+    border-top: solid 1px rgba(35, 31, 32, 0.2);
+    border-right: solid 1px rgba(35, 31, 32, 0.2);
+    overflow: hidden;
+}
+
+.LeftColumn .hexagon_gradient_2 {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: calc(50% - 144px/2 + 108px);
+    top: 290px;
+}
+
+.LeftColumn .hexagon_gradient_5 {
+    position: absolute;
+    width: 576px;
+    height: 576px;
+    left: calc(50% - 576px/2 - 104px);
+    top: 260px;
+}
+
+.LeftColumn .hexagon_3 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    right: -52px;
+    bottom: 190px;
+}

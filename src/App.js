@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Header from "./components/Header/Header"
+import LeftColumn from "./components/LeftColumn/LeftColumn"
+import hexagon_3 from './icons/hexagon-3.svg'
+import Hackathons from './components/Hackathons/Hackathons'
+import hexagon_1 from './icons/hexagon-1.svg'
+import hexagon_gradient_3 from './icons/hexagon-gradient-3.png'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <LeftColumn/>
+      <img src={hexagon_3} className='hexagon_3' alt='hexagon_3'/>      
+      <img src={hexagon_gradient_3} className='hexagon_gradient_3' alt='hexagon_gradient_3'/>  
+      <Hackathons/>       
+      <img src={hexagon_1} className='hexagon_1' alt='hexagon_1'/> 
     </div>
   );
 }

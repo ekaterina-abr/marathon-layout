@@ -1,0 +1,129 @@
+.News {
+    position: absolute;
+    width: 280px;
+    height: 864px;
+    left: calc(50% - 280px/2);
+    top: 524px;
+}
+
+.News h2 {
+    position: absolute;
+    height: 28px;
+    left: 24px;
+    right: 0px;
+    top: 0px;
+    font-family: 'Stapel', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #231F20;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.News .news_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    height: 820px;
+    left: 0px;
+    right: 0px;
+    top: 44px;
+}
+
+.News .news_box_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 280px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+.News .news_item {
+    position: relative;
+    height: 298px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, rgba(255, 190, 91, 0.4) 0%, rgba(255, 210, 0, 0.4) 50%, rgba(255, 221, 0, 0) 100%);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 16px;
+    padding: 0px;
+}
+
+.News .news_item_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    height: 250px;
+    left: 24px;
+    right: 0px;
+    top: 24px;
+    margin: 0px;
+}
+
+.News .news_item_content .news_item_title {
+    font: 18px 'Stapel', sans-serif;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #231F20;
+    text-align: left;
+    margin: 0;
+}
+
+.News .news_item_content .news_item_p {
+    font-family: 'Stapel', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #231F20;
+    text-align: left;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+    padding: 16px 0px;
+}
+
+.News .news_item_content .news_item_moreinfo {
+    font-family: 'Stapel', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(35, 31, 32, 0.5);
+    margin: 0px 0px 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    border-bottom: 2px solid rgba(35, 31, 32, 0.5);
+}
+
+.News .news_item_content .news_item_moreinfo:hover {
+    cursor: pointer;
+}
